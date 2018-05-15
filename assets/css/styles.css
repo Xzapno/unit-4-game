@@ -1,0 +1,114 @@
+/* --- Layout Styles --- */
+
+body {
+    background-color: black;
+}
+
+header {
+    margin: 0 auto;
+    padding: 20px;
+    align-content: center;
+}
+
+#game {
+    max-width: 1200px;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+#playArea {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+}
+
+#pick {
+    background-color: white;
+    padding: 5px;
+}
+
+#luke {
+    float: left;
+    padding: 5px;
+}
+
+#han {
+    float: left;
+    padding: 5px;
+}
+
+#vader {
+    float: left;
+    padding: 5px;
+}
+
+#boba {
+    float: left;
+    padding: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+#enemy {
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#battlefield {
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#defender {
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#animation {
+    float: right;
+}
+
+
+/* --- Font Styles --- */
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.characterName {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+
+/* --- Image Styles --- */
+
+#logo {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#blueHarvest {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
