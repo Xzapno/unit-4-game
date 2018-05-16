@@ -20,6 +20,8 @@ header {
     float: left;
     clear: both;
     margin-top: 10px;
+    width: 650px;
+    height: auto;
 }
 
 #pick {
@@ -30,21 +32,73 @@ header {
 #luke {
     float: left;
     padding: 5px;
+    text-align: center;
 }
 
 #han {
     float: left;
     padding: 5px;
+    text-align: center;
 }
 
 #vader {
     float: left;
     padding: 5px;
+    text-align: center;
 }
 
 #boba {
     float: left;
     padding: 5px;
+    text-align: center;
+}
+
+#lukeEnemy {
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#hanEnemy {
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#vaderEnemy {
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#bobaEnemy {
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#lukeDefend {
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#hanDefend {
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#vaderDefend {
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#bobaDefend {
+    float: left;
+    padding: 5px;
+    text-align: center;
 }
 
 .clear {
@@ -108,6 +162,7 @@ h2 {
     margin: 0px auto;
     max-width: 100%;
     height: auto;
+    float: left;
 }
 
 
