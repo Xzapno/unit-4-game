@@ -1,169 +1,117 @@
-/* --- Layout Styles --- */
+/** ------ Layout Styles ------ **/
 
 body {
-    background-color: black;
+    background-image: ("assests/images/old_wall.jpg");
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-    margin: 0 auto;
-    padding: 20px;
-    align-content: center;
+    padding: 20px 0px 0px 0px;
 }
 
-#game {
-    max-width: 1200px;
+#logo {
+    max-width: 938px;
     max-height: auto;
+    display: block;
     margin: 0 auto;
 }
 
-#playArea {
-    float: left;
-    clear: both;
-    margin-top: 10px;
-    width: 650px;
-    height: auto;
+#container {
+    max-width: 938px;
+    max-height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
-#pick {
+#scoreKeeper {
+    margin: 50px 0px 50px 0px;
+}
+
+#randomNumber{
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+    text-align: center;
     background-color: white;
-    padding: 5px;
 }
 
-#luke {
-    float: left;
-    padding: 5px;
+#score {
+    margin: 0 auto;
+    width: 50%;
+    float: right;
     text-align: center;
-}
-
-#han {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#vader {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#boba {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#lukeEnemy {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#hanEnemy {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#vaderEnemy {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#bobaEnemy {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#lukeDefend {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#hanDefend {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#vaderDefend {
-    float: left;
-    padding: 5px;
-    text-align: center;
-}
-
-#bobaDefend {
-    float: left;
-    padding: 5px;
-    text-align: center;
+    background-color: white;
 }
 
 .clear {
     clear: both;
 }
 
-#enemy {
-    background-color: white;
-    margin-top: 10px;
-    padding: 5px;
-}
-
-#battlefield {
-    background-color: white;
-    margin-top: 10px;
-    padding: 5px;
-}
-
-#defender {
-    background-color: white;
-    margin-top: 10px;
-    padding: 5px;
-}
-
-#animation {
-    float: right;
-}
-
-
-/* --- Font Styles --- */
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.characterName {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-
-
-
-/* --- Image Styles --- */
-
-#logo {
-    display: block;
-    margin: 0px auto;
+#bugContainer {
+    clear: both;
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
-#blueHarvest {
-    display: block;
-    margin: 0px auto;
-    max-width: 100%;
-    height: auto;
+#bug1 {
     float: left;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#bug2 {
+    float: left;
+    padding: 10px;
+}
 
+#bug3 {
+    float: left;
+    padding: 10px;
+}
 
+#bug4 {
+    float: left;
+    padding: 10px;
+}
+
+#winLosses {
+    clear: both;
+}
+
+#winCount {
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#lossCount {
+    margin: 0 auto;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+/** ------ Text Styles ------ **/
+
+h2  {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+p {
+    margin: 14px 80px 14px 20px;
+    font-size: 16px;
+}
+
+/** ------ Image Styles ------ **/
+
+.logoImage {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
