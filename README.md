@@ -10,7 +10,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 3. When the player clicks on a bug to squash it, it will add a specific amount of points to the player's total score. 
 
-4. THe game will hide this amount until the player clicks a crystal. When they do click one, update the player's score counter.
+4. The game will hide this amount until the player clicks a crystal. When they do click one, update the player's score counter.
 
 5. The player wins if their total score matches the random number from the beginning of the game. The player loses if their score goes above the random number.
 
